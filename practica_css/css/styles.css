@@ -1,0 +1,85 @@
+
+/* body{
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background: #f0f0f0;
+    text-align: center;
+} */
+
+
+#title{
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text{
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+p.text{  /* remplaza el selector de arriba */
+    color: red;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+div p {
+    color: #999;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+div h3, div h2 {
+    color: #999;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+*{  /* Remplaza los valores css donde no se ha especificado anteriormente por otro selector */
+    font-size: 24px;
+}
+
+
+
+
+.color {
+    /* border: 5px black solid; */
+    border-style: solid;
+    border-color: #333;
+    border-radius: 5px;
+    border-width: 1em;
+    padding: 10px;
+    color: #333;
+}
+
+
+/* Unidades de medida*/
+
+/* px, em, rem, % */
+
+/* Rem: 1rem = 16px */
+
+/* px: 16px = 1rem */
+
+/* em: 1em = 16px */
+
+/* %: 100% = 16px */
+
+/* Mejor usas medidas relativas */
+
+
+#fondo{
+    /* background-color: rgba(0,0,0,0.5); */
+    /* opacity: 0.7; */
+    /* background-image: url('https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D');
+    background-size: cover; */
+    height: 400px;
+    
+    text-align: center;
+    background: #ff0 url('https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D') no-repeat center center fixed ;
+}
+
