@@ -1,9 +1,12 @@
 <?php
 function getPokemon($name) {
   $url = "https://pokeapi.co/api/v2/pokemon/" . urlencode($name);
-  $response = file_get_contents($url);
+  $response = @file_get_contents($url);
 
-  if (!$response) return null;
+  if ($response === false || strpos($http_response_header[0], "200") === false) {
+    return null;
+  }
+
 
   $data = json_decode($response, true);
 

@@ -11,7 +11,7 @@ if(isset($_GET["name"])) {
 <head>
   <meta charset="UTF-8">
   <title>Pokémon App PHP</title>
-  <link rel="stylesheet" href="pokemon-app-php/css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
        <form method="GET" class="search-form">
